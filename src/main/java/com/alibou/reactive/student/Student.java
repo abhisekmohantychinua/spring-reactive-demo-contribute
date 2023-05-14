@@ -9,13 +9,13 @@ import org.springframework.data.relational.core.mapping.Table;
 @Data
 @AllArgsConstructor
 @Builder
-@Table("student")
+@Table("students")//changed to students
 public class Student {
 
-  @Id
-  private Long id;
-  private String firstname;
-  private String lastname;
-  private int age;
+    @Id
+    private Long id;
+    private String firstname;
+    private String lastname;
+    private int age;
 
 }

@@ -1,9 +1,5 @@
 spring:
   r2dbc:
-    url: r2dbc:postgresql://localhost:5432/spring_reactive
-    username: alibou
-    password: alibou
-  flyway:
-    url: jdbc:postgresql://localhost:5432/spring_reactive
-    user: alibou
-    password: alibou
+    url: r2dbc:mysql://localhost:3306/reactive-web
+    username: user
+    password: pass
